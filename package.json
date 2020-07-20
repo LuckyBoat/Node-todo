@@ -1,0 +1,24 @@
+{
+  "name": "easy-todo",
+  "bin": {
+    "todo": "cli.js"
+  },
+  "files": [
+    "*.js"
+  ],
+  "version": "1.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:Haixiang6123/node-todo.git",
+  "author": "Haixiang <haixiang6123@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "commander": "^4.1.1",
+    "inquirer": "^7.0.6"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
